@@ -1,0 +1,48 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 80px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background: url('') center center ;
+    background: #EEEEEE;
+}
+
+.input-group {
+    margin-bottom: 20px;
+
+}
+
+.input-group label {
+    display: inline-block;
+    width: 120px;
+    
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    width: 250px;
+    padding: 5px;
+   
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+h1{
+    color: red;
+    display: block;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: purple;
+    font-size: 15px;
+    display: block;
+    margin-right: 20px;
+}

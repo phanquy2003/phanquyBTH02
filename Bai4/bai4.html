@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bai4.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+<div class="bai4">
+    <div class="bai4-container">
+        <div class="bai4-text">
+            <h3>TÍNH CHỈ SỐ BMI <i class='bx bxs-calculator'></i> </h3>
+        </div>
+        <form action="" class="bai4-form">
+            <div class="weight">
+                <label for="weight">Nhập cân nặng của bạn</label><br>
+                <input type="text" name="weight" id="weight">
+            </div>
+            <div class="height">
+                <label for="height">Nhập chiều cao của bạn </label><br>
+                <input type="text" name="height" id="height">
+            </div>
+            <div class="bai4-option">
+                <label for="option">Chọn loại tuổi </label><br>
+                <select name="" id="bai4-select" class="bai3-select">
+                    <option value="" id="bai4-0">Chọn</option>
+                    <option value="1"  id="bai4-1">Trung niên</option>
+                    <option value="2"  id="bai4-2">Trung niên , già lớn tuổi</option>
+                    <option value="3" id="bai4-3">Già ,lớn tuổi</option>
+               </select>
+            </div>
+           <center> <input type="button" value="Tính BMI" class="bai4-button" onclick="bai4()"> </center>
+        </form>
+        <div class="ketqua">
+            KẾT QUẢ SAU TÍNH: 
+            <div id="bai4-number"></div>
+            <div id="categories"></div>
+            <div id="message"></div>
+          <center> <h4> <i class='bx bx-happy-heart-eyes' ></i> </h4>  </center>  
+        </div>
+    </div>
+</div>
+</body>
+</html>
